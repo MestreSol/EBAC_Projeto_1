@@ -1,53 +1,34 @@
-
 # EBAC Projeto 1
 
-Este é um projeto desenvolvido como parte do curso Full-Stack Python da EBAC. O foco inicial do projeto é apresentar os fundamentos do desenvolvimento front-end com HTML, CSS e JavaScript, enquanto proporciona uma base sólida para futuras melhorias e integrações.
+## Available Scripts
 
-## 🛠️ Tecnologias Utilizadas
+In the project directory, you can run:
 
-- **HTML5**: Estrutura e marcação.
-- **CSS3**: Estilo e layout.
-- **JavaScript (ES6+)**: Lógica e interatividade.
+### `npm start`
 
-## 📌 Funcionalidades
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-- Interface simples e funcional.
-- Estrutura modular e escalável para futuras implementações.
-- Base para integração com backend e banco de dados.
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-## 🚀 Planejamento Futuro
+### `npm test`
 
-O projeto será gradualmente aprimorado com as seguintes atualizações:
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-1. **Migração para TypeScript**: Para maior robustez e tipagem estática.
-2. **Conexão com Banco de Dados**: Transformando-o em um site funcional com persistência de dados.
-3. **Integração Backend**: Desenvolvimento de APIs para comunicação eficiente entre cliente e servidor.
-4. **Melhoria da Interface**: Adicionar responsividade e funcionalidades avançadas.
+### `npm run build`
 
-## 📁 Estrutura do Projeto
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-```plaintext
-EBAC_Projeto_1/
-├── index.html         # Arquivo principal HTML
-├── styles/            # Estilos CSS
-│   └── main.css
-├── scripts/           # Scripts JavaScript
-│   └── main.js
-└── assets/            # Imagens e outros recursos estáticos
-```
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-## 🔧 Como Executar o Projeto
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/MestreSol/EBAC_Projeto_1.git
-   ```
-2. Navegue até o diretório do projeto:
-   ```bash
-   cd EBAC_Projeto_1
-   ```
-3. Abra o arquivo `index.html` no navegador.
+### `npm run eject`
 
----
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
 💻 Desenvolvido por [João](https://github.com/MestreSol)
