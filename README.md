@@ -1,61 +1,70 @@
-Aqui está um modelo de README.md para o projeto:
+# Getting Started with Create React App
 
-```markdown
-# EBAC Projeto 1
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Este é um projeto desenvolvido como parte do curso Full-Stack Python da EBAC. O foco inicial do projeto é apresentar os fundamentos do desenvolvimento front-end com HTML, CSS e JavaScript, enquanto proporciona uma base sólida para futuras melhorias e integrações.
+## Available Scripts
 
-## 🛠️ Tecnologias Utilizadas
+In the project directory, you can run:
 
-- **HTML5**: Estrutura e marcação.
-- **CSS3**: Estilo e layout.
-- **JavaScript (ES6+)**: Lógica e interatividade.
+### `npm start`
 
-## 📌 Funcionalidades
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-- Interface simples e funcional.
-- Estrutura modular e escalável para futuras implementações.
-- Base para integração com backend e banco de dados.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## 🚀 Planejamento Futuro
+### `npm test`
 
-O projeto será gradualmente aprimorado com as seguintes atualizações:
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-1. **Migração para TypeScript**: Para maior robustez e tipagem estática.
-2. **Conexão com Banco de Dados**: Transformando-o em um site funcional com persistência de dados.
-3. **Integração Backend**: Desenvolvimento de APIs para comunicação eficiente entre cliente e servidor.
-4. **Melhoria da Interface**: Adicionar responsividade e funcionalidades avançadas.
+### `npm run build`
 
-## 📁 Estrutura do Projeto
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-```plaintext
-EBAC_Projeto_1/
-├── index.html         # Arquivo principal HTML
-├── styles/            # Estilos CSS
-│   └── main.css
-├── scripts/           # Scripts JavaScript
-│   └── main.js
-└── assets/            # Imagens e outros recursos estáticos
-```
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-## 🔧 Como Executar o Projeto
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/MestreSol/EBAC_Projeto_1.git
-   ```
-2. Navegue até o diretório do projeto:
-   ```bash
-   cd EBAC_Projeto_1
-   ```
-3. Abra o arquivo `index.html` no navegador.
+### `npm run eject`
 
----
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-💻 Desenvolvido por [João](https://github.com/MestreSol)
-```
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-### Como adaptar ao longo do tempo:
-- Ao migrar para TypeScript e integrar com um backend, adicione as respectivas tecnologias e detalhes sobre as APIs no README.
-- Documente as instruções para rodar o backend e configurar o banco de dados.
-- Inclua informações sobre testes e endpoints da API, se necessário.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
