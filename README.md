@@ -1,6 +1,4 @@
-Aqui está um modelo de README.md para o projeto:
 
-```markdown
 # EBAC Projeto 1
 
 Este é um projeto desenvolvido como parte do curso Full-Stack Python da EBAC. O foco inicial do projeto é apresentar os fundamentos do desenvolvimento front-end com HTML, CSS e JavaScript, enquanto proporciona uma base sólida para futuras melhorias e integrações.
@@ -53,9 +51,3 @@ EBAC_Projeto_1/
 ---
 
 💻 Desenvolvido por [João](https://github.com/MestreSol)
-```
-
-### Como adaptar ao longo do tempo:
-- Ao migrar para TypeScript e integrar com um backend, adicione as respectivas tecnologias e detalhes sobre as APIs no README.
-- Documente as instruções para rodar o backend e configurar o banco de dados.
-- Inclua informações sobre testes e endpoints da API, se necessário.
