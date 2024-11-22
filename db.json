@@ -4,7 +4,15 @@
       "id": 1,
       "name": "Game 1",
       "description": "Description",
-      "note": 5
+      "note": 5,
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 2,
+      "name": "Game 1",
+      "description": "Description",
+      "note": 5,
+      "image": "https://via.placeholder.com/150"
     }
   ]
 }

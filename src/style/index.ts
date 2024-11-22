@@ -31,11 +31,16 @@ export const GlobalStyle = createGlobalStyle`
   }
 }
 `
+const GameList = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+`
 const Container = styled.div`
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
 `
 
-export { Container };
+export { Container, GameList };
 export default GlobalStyle;

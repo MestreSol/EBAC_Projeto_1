@@ -3,9 +3,10 @@ import { Game } from './models/Game';
 import { useDispatch, useSelector } from 'react-redux';
 import { RootState } from './reducer/store';
 import { loadGames } from './stores/Game';
-import GlobalStyle, { Container, darkTheme, lightTheme } from './style';
+import GlobalStyle, { Container, darkTheme, lightTheme, GameList } from './style';
 import { ThemeProvider } from 'styled-components';
 import Header from './containers/Header';
+import GameComponent from './components/game';
 
 const App: React.FC = () => {
   const [theme, setTheme] = React.useState(lightTheme);
@@ -31,12 +32,11 @@ const App: React.FC = () => {
       <GlobalStyle/>
       <Header></Header>
       <Container>
+        <GameList>
         {games.map((game: Game) => (
-          <div key={game.id}>
-            <h1>{game.name}</h1>
-            <p>{game.description}</p>
-          </div>
+          <GameComponent key={game.id} {...game} />
         ))}
+        </GameList>
         <button onClick={toggleTheme}>Toggle Theme</button>
       </Container>
     </ThemeProvider>
