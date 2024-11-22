@@ -21,7 +21,7 @@ const GameSlice = createSlice({
     },
     removeGame(state, action: PayloadAction<Game>){
       state.games = state.games.filter(
-        (game) => game.id !== action.payload.id
+        (game) => game.gameName !== action.payload.gameName
       )
     }
   }

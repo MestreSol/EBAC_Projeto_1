@@ -5,11 +5,11 @@ export default function GameComponent(props: Game) {
   return (
     <Card>
       <CardImage>
-        <img src={props.image} alt={props.name} />
+        <img src={props.steam_image} alt={props.gameName} />
       </CardImage>
       <CardBody>
-        <h2>{props.name}</h2>
-        <p>{props.description}</p>
+        <h2>{props.gameName}</h2>
+        <p>{props.steam_description}</p>
       </CardBody>
 <CardFooter>
 

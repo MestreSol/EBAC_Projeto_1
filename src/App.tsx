@@ -34,7 +34,7 @@ const App: React.FC = () => {
       <Container>
         <GameList>
         {games.map((game: Game) => (
-          <GameComponent key={game.id} {...game} />
+          <GameComponent key={game.gameName} {...game} />
         ))}
         </GameList>
         <button onClick={toggleTheme}>Toggle Theme</button>
