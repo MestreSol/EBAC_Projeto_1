@@ -1,8 +1,9 @@
 import { createGlobalStyle } from "styled-components";
+import styled from "styled-components";
 
 export const lightTheme = {
   body: '#f5f5f5',
-  text: '#363537',
+  text: '#fff',
   toggleBorder: '#FFF',
   background: '#363537',
 }
@@ -14,17 +15,27 @@ export const darkTheme = {
   background: '#999',
 }
 
-const GlobalStyle = createGlobalStyle`
-  *{
+export const GlobalStyle = createGlobalStyle`
+  * {
     margin: 0;
     padding: 0;
+    list-style: none;
     box-sizing: border-box;
+    font-family: Roboto, sans-serif;
   }
+
   body {
     background-color: ${(props) => props.theme.body};
     color: ${(props) => props.theme.text};
-    font-family: sans-serif;
-    transition: all 0.25s linear;
+    padding-bottom: 80px;
   }
+}
 `
+const Container = styled.div`
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+`
+
+export { Container };
 export default GlobalStyle;
